@@ -1,0 +1,100 @@
+.projects-section {
+    padding: 50px;
+    background-color: #fff;
+    height: 100%;
+    flex-grow: 1;
+    font-family: "Roboto";
+    text-align: center;
+  }
+  
+  .projects-coontainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    color: blue;
+  }
+
+  p{
+    margin: 0px;
+  }
+  
+  .project-card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .project-card hr {
+    border: none; 
+    border-top: 1px solid #000000;
+    margin: 20px 0; 
+  }
+  
+
+  .projects-section .technology-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .projects-section .technology-image-2 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icon{
+    margin-left: 10px;
+  }
+
+  .projects-section .technology-image-3 {
+    width: 45px;
+    height: 50px;
+  }
+
+  .projects-section .technology-image-4 {
+    width: 45px;
+    height: 45px;
+  }
+
+  .project-title{
+    font-size: 25px;
+    color: #19cabf;
+    margin: 5px 0px;
+  }
+  
+  .projects-section p{
+    color: #464c4c;
+  }
+
+.div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
