@@ -2,14 +2,14 @@
 
 
 import React from 'react';
-import Header from '../Header';
+import Navbar from '../Navbar';
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import './index.css';
 
 const Projects = () => {
   return (
     <div className='projects-container'>
-        <Header/>
+        <Navbar/>
     <section id="projects" className="projects-section">
        
       <h2 className="projects-title">My Projects</h2>
